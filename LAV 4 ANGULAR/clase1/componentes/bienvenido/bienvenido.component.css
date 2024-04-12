@@ -1,0 +1,14 @@
+.welcome-container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.welcome-title {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.welcome-message {
+    font-size: 1.2rem;
+    color: #666;
+}
