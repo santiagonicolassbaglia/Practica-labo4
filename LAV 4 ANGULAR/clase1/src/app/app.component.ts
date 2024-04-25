@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { LoginComponent } from '../../componentes/login/login.component';
+import { LoginComponent } from '../app/componentes/login/login.component';
 import { FormsModule } from '@angular/forms';
-import { BienvenidoComponent } from '../../componentes/bienvenido/bienvenido.component';
- import { PaginaErrorComponent } from '../../componentes/pagina-error/pagina-error.component';
- import { Usuario } from '../../clases/usuario';
+import { BienvenidoComponent } from '../app/componentes/bienvenido/bienvenido.component';
+ import { PaginaErrorComponent } from '../app/componentes/pagina-error/pagina-error.component';
+ import { Usuario } from '../app/clases/usuario';
 @Component({
   selector: 'app-root',
   standalone: true,
