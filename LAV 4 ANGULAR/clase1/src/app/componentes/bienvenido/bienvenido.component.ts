@@ -1,4 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { Router } from '@angular/router';
+
+
 
 @Component({
   selector: 'app-bienvenido',
@@ -7,6 +10,19 @@ import { Component } from '@angular/core';
   templateUrl: './bienvenido.component.html',
   styleUrl: './bienvenido.component.css'
 })
-export class BienvenidoComponent {
+export  class BienvenidoComponent {
+
+  private router = inject(Router);
+ 
+
+  ngOnInit(): void {
+
+  }
+
+  logout() {
+    this.router.navigateByUrl('login');
+  }
+
+
 
 }
